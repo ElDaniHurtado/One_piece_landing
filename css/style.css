@@ -1,0 +1,151 @@
+ /* Reseteo y estilos generales */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    scroll-behavior: smooth;
+}
+
+/* Estilos del nav */
+nav {
+    width: 100%;
+    background-color: #0C0910;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.sanji-nav:hover {
+    color: yellow;
+}
+
+.luffy-nav:hover {
+    color: red;
+}
+
+.zoro-nav:hover {
+    color: #4CAF50;
+}
+
+/* Estilos generales de las secciones */
+section {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.lf, .zr, .sj {
+    outline: 1px solid;
+    height: 530px;
+    display: flex;
+}
+
+.lf {
+    background-color: red;
+}
+
+.luffy, .zoro, .sanji {
+    width: 100%;
+    display: flex;
+}
+
+.luffy img, .zoro img{
+    width: 30%;
+    height: 500px;
+    margin: 10px;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+}
+
+.sanji img {
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.9));
+}
+
+.content-luffy, .content-zoro, .content-sanji {
+    width: 50%;
+    margin: 50px;
+    color: white;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 10px;
+    outline: 3px solid;
+    background-color: black;
+    box-shadow: -2px 2px 82px -14px rgba(217,208,217,1);
+}
+
+.content-zoro h1 {
+    color: #4CAF50;
+}
+
+.content-sanji h1 {
+    color: yellow;
+}
+
+.content-luffy h1 {
+    color: red;
+}
+
+.content-luffy h1, .content-zoro h1, .content-sanji h1 {
+    text-indent: 10px;
+}
+
+.content-luffy li {
+    text-indent: 10px;
+}
+
+
+.content-luffy p, .content-zoro p, .content-sanji p {
+    margin: 10px;
+}
+
+.content-sanji span {
+    color: yellow;
+}
+
+.content-zoro .datos-zoro {
+    color: #4CAF50;
+}
+
+.content-zoro .zoro-apodo {
+    color: #4CAF50;
+}
+
+.content-luffy .datos-luffy {
+    color: red;
+}
+
+.content-luffy .luffy-apodo {
+    color: red;
+}
+
+
+.zr {
+    background-color: #4CAF50; /* Color diferente para Zoro */
+}
+
+.sj {
+    background-color: yellow;
+}
